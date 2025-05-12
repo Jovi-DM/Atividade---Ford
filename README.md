@@ -15,7 +15,7 @@ _OBS.: No data preprocessing or cleaning was performed._
 ### Installation
 ```bash
 # Install dependencies
-yarn install
+yarn
 # or using npm
 npm install
 
@@ -27,6 +27,10 @@ npm install -g yarn
 ### Start project
 
 ```bash
+$ npx prisma generate
+
+# in next
+
 $ yarn dev
 ```
 
